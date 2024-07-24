@@ -5,7 +5,7 @@ import { Heading } from '@/components/ui/heading';
 
 const breadcrumbItems = [
   { title: 'Dashboard', link: '/dashboard' },
-  { title: 'Kanban', link: '/dashboard/kanban' }
+  { title: 'Kanban', link: '/kanban' }
 ];
 
 export default function page() {

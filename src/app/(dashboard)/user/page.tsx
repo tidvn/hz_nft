@@ -4,7 +4,7 @@ import { users } from '@/constants/data';
 
 const breadcrumbItems = [
   { title: 'Dashboard', link: '/dashboard' },
-  { title: 'User', link: '/dashboard/user' }
+  { title: 'User', link: '/user' }
 ];
 export default function page() {
   return (

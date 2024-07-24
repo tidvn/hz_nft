@@ -4,7 +4,7 @@ import { ScrollArea } from '@/components/ui/scroll-area';
 
 const breadcrumbItems = [
   { title: 'Dashboard', link: '/dashboard' },
-  { title: 'Profile', link: '/dashboard/profile' }
+  { title: 'Profile', link: '/profile' }
 ];
 export default function page() {
   return (

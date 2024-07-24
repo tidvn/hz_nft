@@ -1,5 +1,5 @@
 import { Breadcrumbs } from '@/components/breadcrumbs';
-import { UserClient } from '@/components/tables/user-tables/client';
+import { UserClient } from '@/components/app/tables/user-tables/client';
 import { users } from '@/constants/data';
 
 const breadcrumbItems = [

@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import { DashboardNav } from '@/components/dashboard-nav';
+import { DashboardNav } from '@/components/common/dashboard-nav';
 import { navItems } from '@/constants/data';
 import { cn } from '@/lib/utils';
 import { ChevronLeft } from 'lucide-react';
@@ -22,7 +22,7 @@ export default function Sidebar({ className }: SidebarProps) {
   return (
     <nav
       className={cn(
-        `relative hidden h-screen flex-none border-r z-10 pt-20 md:block`,
+        `relative z-10 hidden h-screen flex-none border-r pt-20 md:block`,
         status && 'duration-500',
         !isMinimized ? 'w-72' : 'w-[72px]',
         className

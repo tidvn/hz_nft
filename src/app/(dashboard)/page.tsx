@@ -1,9 +1,9 @@
-import { AreaGraph } from '@/components/charts/area-graph';
-import { BarGraph } from '@/components/charts/bar-graph';
-import { PieGraph } from '@/components/charts/pie-graph';
-import { CalendarDateRangePicker } from '@/components/date-range-picker';
-import { Overview } from '@/components/overview';
-import { RecentSales } from '@/components/recent-sales';
+import { AreaGraph } from '@/components/app/charts/area-graph';
+import { BarGraph } from '@/components/app/charts/bar-graph';
+import { PieGraph } from '@/components/app/charts/pie-graph';
+import { CalendarDateRangePicker } from '@/components/common/date-range-picker';
+import { Overview } from '@/components/common/overview';
+import { RecentSales } from '@/components/common/recent-sales';
 import { Button } from '@/components/ui/button';
 import {
   Card,

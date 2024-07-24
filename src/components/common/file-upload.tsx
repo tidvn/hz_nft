@@ -5,8 +5,8 @@ import { Trash } from 'lucide-react';
 import Image from 'next/image';
 import { UploadFileResponse } from 'uploadthing/client';
 import { IMG_MAX_LIMIT } from '../app/forms/product-form';
-import { Button } from '../ui/button';
-import { useToast } from '../ui/use-toast';
+import { Button } from '@/components/ui/button';
+import { useToast } from '@/components/ui/use-toast';
 
 interface ImageUploadProps {
   onChange?: any;
